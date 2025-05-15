@@ -6,6 +6,7 @@
     <title>Torre Eiffel</title>
     <link rel="stylesheet" href="static/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="static/puzzle.js">
 </head>
 <body>
     <header>
@@ -25,16 +26,20 @@
     </header>
     <main>
 
-        <section id="historia" class="collapsible-section">
+        <section id="historia" class="collapsible-section custom-bg-color">
             <h2>Historia de la Torre Eiffel</h2>
-            <div class="collapse" id="historiaContent">
+            <div class="collapse custom-bg-color" id="historiaContent">
                 <p>La Torre Eiffel fue construida por el ingeniero Gustave Eiffel y su equipo para la Exposición Universal de 1889 en París, conmemorando el centenario de la Revolución Francesa. La torre, que inicialmente recibió críticas de artistas y escritores, pronto se convirtió en un símbolo icónico de la ciudad de París y de Francia en general.</p>
                 <img src="imagenes/torre_eiffel_historia.jpg" alt="Construcción de la Torre Eiffel" style="width:200px;height:auto;">
+				<audio controls>
+					<source src="audios/TorreEiffel01.mp3" type="audio/mpeg">
+					Tu navegador no soporta el elemento de audio.
+				</audio>
             </div>
 		</section>
-		<section id="curiosidades" class="collapsible-section">
+		<section id="curiosidades" class="collapsible-section custom-bg-color">
             <h2>Curiosidades sobre la Torre Eiffel</h2>
- 			<div class="collapse" id="curiosidadesContent">
+ 			<div class="collapse custom-bg-color" id="curiosidadesContent">
 				<ul>
 					<li>La Torre Eiffel mide 324 metros de altura, ¡aproximadamente la misma altura que un edificio de 81 pisos!</li>
 					<li>Durante su construcción, se utilizaron más de 18,000 piezas metálicas y 2.5 millones de remaches.</li>
@@ -43,7 +48,11 @@
 					<li>Inicialmente, la torre estaba destinada a ser desmontada después de 20 años, pero se salvó debido a su utilidad como torre de transmisión de radio.</li>
 				</ul>
 				<img src="imagenes/torre_eiffel_curiosidades.jpg" alt="Curiosidades de la Torre Eiffel" style="width:200px;height:auto;">
-			</div>
+				<audio controls>
+					<source src="audios/TorreEiffel02_curiosidades.mp3" type="audio/mpeg">
+					Tu navegador no soporta el elemento de audio.
+				</audio>
+         	</div>
         </section>
 		<section id="experiencia-visita" class="collapsible-section custom-bg-color">
 			<h2>Experiencia de la Visita</h2>
@@ -51,14 +60,14 @@
 				<h3>🎉 Introducción y Espera 🎉</h3>
 				<p><strong>¡Hola chicos! 👋</strong> Hoy vamos a visitar uno de los monumentos más famosos del mundo: <strong>¡La Torre Eiffel! 🗼</strong> Esta torre increíble está en París, la capital de Francia. Es una torre muy alta, mide 324 metros (¡como un edificio de 81 pisos!) y fue construida hace mucho tiempo, en 1889. ¿Estáis listos para descubrir sus secretos y pasar un día emocionante? ¡Vamos allá!</p>
 				<audio controls>
-					<source src="audios/introduccion.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel03_introduccion.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
 				
 				<h3>📜 Historia de la Torre Eiffel 📜</h3>
 				<p>La Torre Eiffel fue construida por un ingeniero llamado Gustave Eiffel y su equipo para una exposición llamada "Exposición Universal" en 1889. Esta exposición celebraba los 100 años de la Revolución Francesa. Al principio, algunas personas no estaban contentas con la torre, pero con el tiempo, se convirtió en un símbolo muy importante de París y de toda Francia.</p>
 				<audio controls>
-					<source src="audios/historia.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel04_historia.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
 				
@@ -71,21 +80,21 @@
 					<p><strong>Miles de visitantes:</strong> La Torre Eiffel recibe a más de 7 millones de visitantes cada año. ¡Es uno de los lugares más visitados del mundo! 🌍</p>
 				</div>
 				<audio controls>
-					<source src="audios/curiosidades.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel05_curiosidades.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
                 
 				<h3>🚶‍♂️ Llegada a la Torre Eiffel 🚶‍♀️</h3>
 				<p><strong>¡Miren chicos! 👀</strong> Desde abajo, la Torre Eiffel se ve impresionante. Si levantáis la cabeza, ¡podréis ver hasta el último piso! 🏢</p>
 				<audio controls>
-					<source src="audios/llegada.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel06_llegada.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
 
 				<h3>🛗 Subiendo a la Torre 🛗</h3>
 				<p><strong>Vamos a subir por el ascensor 🚀, pero también podéis tomar las escaleras 🏃‍♂️ si os sentís valientes. ¡Hay 1665 escalones hasta la cima! 😲</strong></p>
 				<audio controls>
-					<source src="audios/subiendo.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel07_subiendo.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
 
@@ -101,7 +110,7 @@
 					<li><strong>Datos Curiosos</strong>: A lo largo del primer piso, encontraréis paneles informativos con datos curiosos y anécdotas sobre la Torre Eiffel. ¿Sabíais que la torre cambia de color según la estación del año? ¡Descubriremos muchos otros secretos!</li>
 				</ul>
 				<audio controls>
-					<source src="audios/primer_piso.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel08_primer_piso.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
         
@@ -115,7 +124,7 @@
 					<li><strong>Guías y Paneles Informativos</strong>: Encontraréis más información sobre lo que estáis viendo en los paneles informativos y las guías interactivas.</li>
 				</ul>
 				<audio controls>
-					<source src="audios/segundo_piso.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel09_segundo_piso.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
 				
@@ -129,7 +138,7 @@
 					<li><strong>Relajarse y Disfrutar</strong>: Hay áreas donde podéis sentaros y simplemente disfrutar de la vista y la experiencia de estar en lo más alto de la Torre Eiffel.</li>
 				</ul>
 				<audio controls>
-					<source src="audios/cima.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel10_cima.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
 
@@ -142,15 +151,15 @@
 					<li><strong>Fotos de Despedida</strong>: Antes de irnos, no olviden tomar algunas fotos de despedida con la Torre Eiffel de fondo. 📸 ¡Será un recuerdo especial de este día increíble!</li>
 				</ul>
 				<audio controls>
-					<source src="audios/bajando.mp3" type="audio/mpeg">
+					<source src="audios/TorreEiffel11_bajando.mp3" type="audio/mpeg">
 					Tu navegador no soporta el elemento de audio.
 				</audio>
 
 			</div>
 		</section>		
-		<section id="fotos" class="collapsible-section"> 
+		<section id="fotos" class="collapsible-section custom-bg-color"> 
 			<h2>Fotos de la Torre Eiffel</h2> 
-			<div class="collapse" id="fotosContent"> 
+			<div class="collapse custom-bg-color" id="fotosContent"> 
 				<img src="imagenes/torre_eiffel_1.jpg" alt="Torre Eiffel de día" style="width:200px;height:auto;"> 
 				<br> 
 				<img src="imagenes/torre_eiffel_2.jpg" alt="Torre Eiffel de noche" style="width:200px;height:auto;"> 
@@ -158,6 +167,17 @@
 				<img src="imagenes/torre_eiffel_3.jpg" alt="Vista desde la Torre Eiffel" style="width:200px;height:auto;"> 
 			</div> 
 		</section> 
+
+		<section id="juego-puzzle" class="custom-bg-color">
+			<h2>🧩 Juego del Puzzle de la Torre Eiffel 🧩</h2>
+			<p>¡Arma este divertido puzzle de la Torre Eiffel y demuestra tus habilidades! 🗼</p>
+			<div id="puzzle-container">
+				<canvas id="puzzleCanvas" width="400" height="400"></canvas>
+				<button id="startPuzzle" class="btn btn-custom">Comenzar el Puzzle</button>
+				<p id="puzzleMessage"></p>
+			</div>
+		</section>
+		
 	</main> 
 	
 	<footer> 
@@ -200,5 +220,7 @@
 			}
 		});
 	</script>
+    <script src="static/puzzle.js"></script>
+
 </body> 
 </html>
