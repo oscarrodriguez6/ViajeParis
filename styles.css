@@ -1,9 +1,19 @@
+/* ----------------------------- */
+/* 📌 Tipografía general y fondo */
+/* ----------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic Sans&display=swap');
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans', cursive, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f3e5f5;
 }
+
+/* ----------------------------- */
+/* 🎩 Cabecera y navegación      */
+/* ----------------------------- */
 
 .header-container {
     display: flex;
@@ -24,6 +34,15 @@ header h1 {
     font-size: 2.5rem;
     text-shadow: 2px 2px #6a1b9a;
     margin: 0;
+    font-family: 'Comic Sans', cursive;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #6a1b9a;
+    margin-top: 0.5rem;
+    text-align: center;
 }
 
 nav ul {
@@ -46,6 +65,10 @@ nav ul li a {
     text-shadow: 1px 1px #fff;
 }
 
+/* ----------------------------- */
+/* 🎠 Cuerpo principal           */
+/* ----------------------------- */
+
 main {
     padding: 2rem;
     background-image: url('fondo_disney.jpg');
@@ -59,6 +82,20 @@ section {
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+}
+
+/* Si quieres personalizar secciones según el destino */
+section[data-location="trocadero"] {
+    border-left: 8px solid #d32f2f;
+}
+
+/* ----------------------------- */
+/* 🔤 Títulos y fuentes          */
+/* ----------------------------- */
+
+h2, h3 {
+    font-family: 'Comic Sans', cursive;
 }
 
 h2 {
@@ -67,19 +104,26 @@ h2 {
     font-size: 2rem;
 }
 
-footer {
-    background-color: #bf00a2;
-    color: #fff;
-    text-align: center;
-    padding: 1.5rem 0;
-    font-size: 1.2rem;
+/* ----------------------------- */
+/* 📸 Imágenes                   */
+/* ----------------------------- */
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* ----------------------------- */
+/* 🎮 Botones                    */
+/* ----------------------------- */
+
 .btn-custom {
     background-color: #bf00a2;
     color: #fff;
     border: none;
-    padding: 0.25rem 0.5rem; /* Tamaño reducido */
-    font-size: 0.875rem; /* Tamaño de fuente reducido */
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -87,16 +131,27 @@ footer {
 .btn-custom:hover {
     background-color: #9f007f;
 }
+
+/* ----------------------------- */
+/* 🎨 Colores personalizados     */
+/* ----------------------------- */
+
 .custom-bg-color {
-    background-color: #fbafff; /* Cambia este color al que prefieras */
+    background-color: #fbafff;
     padding: 20px;
     border-radius: 10px;
 }
+
 .custom-bg-color-guia {
-    background-color: #fee2ff; /* Cambia este color al que prefieras */
+    background-color: #fee2ff;
     padding: 20px;
     border-radius: 10px;
 }
+
+/* ----------------------------- */
+/* 🧩 Puzzle y extras            */
+/* ----------------------------- */
+
 #puzzle-container {
     text-align: center;
     margin-top: 20px;
