@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galerías Lafayette</title>
+    <link rel="stylesheet" href="static/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="imagen1.png" alt="Imagen 1" class="header-image" />
+        <h1>Galerías Lafayette</h1>
+        <img src="imagen2.png" alt="Imagen 2" class="header-image" />
+      </div>
+      <p class="intro-text">
+        🛍️ Galerías Lafayette: Donde las compras brillan bajo una cúpula de
+        cristal
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html#estancia-disney">Estancia en Disney</a></li>
+          <li><a href="index.html#destinos">Destinos</a></li>
+          <li><a href="index.html#donde-comer">Dónde comer</a></li>
+          <li><a href="index.html#actividades">Actividades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="lafayette"
+        class="collapsible-section custom-bg-color"
+        data-location="lafayette"
+      >
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#lafayetteContent"
+            aria-expanded="false"
+            aria-controls="lafayetteContent"
+          >
+            🛍️ Galerías Lafayette: Donde las compras brillan bajo una cúpula de
+            cristal
+          </button>
+        </h2>
+        <div class="collapse" id="lafayetteContent">
+          <p class="intro-text">
+            Donde los escaparates cuentan cuentos y la cúpula parece una flor de
+            vidrio gigante 🌸🛒
+          </p>
+
+          <h3>🌟 Un centro comercial de cuento</h3>
+          <p>
+            Las <strong>Galerías Lafayette</strong> no son solo tiendas: ¡son un
+            palacio de colores! Tienen una
+            <strong>cúpula de cristal Art Nouveau</strong> que parece una flor
+            mágica, escaleras doradas, vitrinas animadas y hasta una
+            <strong>terraza con vistas a París</strong>. ¡Ideal para sentirse
+            como un explorador elegante! 🎩👗
+          </p>
+
+          <h3>🧭 Misión Lafayette para mini compradores</h3>
+          <ul>
+            <li>
+              🔍 Encuentra el <strong>gran árbol de Navidad</strong> (si es
+              invierno) o la cúpula de colores (todo el año)
+            </li>
+            <li>
+              🖼️ Mira los escaparates: ¿hay robots? ¿Animales? ¿Pasteles
+              gigantes?
+            </li>
+            <li>
+              📸 Sube a la terraza y haz una foto con la Torre Eiffel al fondo
+            </li>
+          </ul>
+
+          <h3>🎁 ¿Qué puedes encontrar?</h3>
+          <p>
+            Desde juguetes y ropa hasta dulces, perfumes y libros. ¡Hay una
+            planta solo para niños! Y si tienes suerte, puede que haya
+            <strong>talleres creativos</strong> o
+            <strong>cuentacuentos</strong> en la zona infantil. 📚🍬
+          </p>
+
+          <h3>🎨 Idea para después</h3>
+          <p>
+            Dibuja tu propia tienda soñada: ¿venderías unicornios de peluche?
+            ¿Zapatos que vuelan? ¿Galletas que cantan? 🦄👟🍪
+          </p>
+        </div>
+      </section>
+
+      <section id="fotos-lafayette" class="collapsible-section custom-bg-color">
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#fotosLafayetteContent"
+            aria-expanded="false"
+            aria-controls="fotosLafayetteContent"
+          >
+            📷 ¡Fotos bajo la cúpula mágica!
+          </button>
+        </h2>
+        <div class="collapse" id="fotosLafayetteContent">
+          <img
+            src="imagenes/lafayette1.jpg"
+            alt="Cúpula de cristal de las Galerías Lafayette"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/lafayette2.jpg"
+            alt="Escaparates decorados con luces y muñecos"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/lafayette3.jpg"
+            alt="Vista desde la terraza con la Torre Eiffel al fondo"
+            style="width: 200px; height: auto"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="index.html#destinos">Volver</a></p>
+      <p>&copy; 2025 Viaje a París. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="static/bootstrap.js"></script>
+  </body>
+</html>

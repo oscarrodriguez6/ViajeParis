@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petit Palais</title>
+    <link rel="stylesheet" href="static/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="imagen1.png" alt="Imagen 1" class="header-image" />
+        <h1>Petit Palais</h1>
+        <img src="imagen2.png" alt="Imagen 2" class="header-image" />
+      </div>
+      <p class="intro-text">
+        🏛️ Petit Palais: El museo donde las flores y las pinturas se dan la mano
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html#estancia-disney">Estancia en Disney</a></li>
+          <li><a href="index.html#destinos">Destinos</a></li>
+          <li><a href="index.html#donde-comer">Dónde comer</a></li>
+          <li><a href="index.html#actividades">Actividades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="petitpalais"
+        class="collapsible-section custom-bg-color"
+        data-location="petitpalais"
+      >
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#petitContent"
+            aria-expanded="false"
+            aria-controls="petitContent"
+          >
+            🏛️ Petit Palais: El museo donde las flores y las pinturas se dan la
+            mano
+          </button>
+        </h2>
+        <div class="collapse" id="petitContent">
+          <p class="intro-text">
+            Donde los jardines susurran arte y las salas brillan como cofres de
+            colores 🎨🌸
+          </p>
+
+          <h3>🌼 Un museo con jardín secreto</h3>
+          <p>
+            El <strong>Petit Palais</strong> fue construido para una exposición
+            universal en 1900, ¡y parece un palacio de cuento! Tiene
+            <strong>techos dorados, vitrales, esculturas</strong> y un
+            <strong>jardín interior</strong> con fuentes y flores. Es como un
+            museo escondido dentro de un abrazo de arte y naturaleza 🌿🖼️.
+          </p>
+
+          <h3>🧩 Misión Petit Palais</h3>
+          <ul>
+            <li>
+              🔍 Encuentra una pintura con un unicornio, un dragón o un ángel
+            </li>
+            <li>
+              🌺 Descubre el jardín interior y cuenta cuántas flores diferentes
+              ves
+            </li>
+            <li>🖍️ Dibuja tu propia sala de museo con cuadros inventados</li>
+          </ul>
+
+          <h3>🎁 Extra mágico</h3>
+          <p>
+            La entrada a la colección permanente es
+            <strong>¡gratis!</strong> Así que puedes entrar, pasear, imaginar y
+            salir con el corazón lleno de colores. 💖
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="fotos-petitpalais"
+        class="collapsible-section custom-bg-color"
+      >
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#fotosPetitContent"
+            aria-expanded="false"
+            aria-controls="fotosPetitContent"
+          >
+            📷 ¡Fotos entre columnas y flores!
+          </button>
+        </h2>
+        <div class="collapse" id="fotosPetitContent">
+          <img
+            src="imagenes/petitpalais1.jpg"
+            alt="Fachada del Petit Palais con columnas doradas"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/petitpalais2.jpg"
+            alt="Jardín interior con fuente y esculturas"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/petitpalais3.jpg"
+            alt="Sala de arte con vitrales y techos decorados"
+            style="width: 200px; height: auto"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="index.html#destinos">Volver</a></p>
+      <p>&copy; 2025 Viaje a París. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="static/bootstrap.js"></script>
+  </body>
+</html>

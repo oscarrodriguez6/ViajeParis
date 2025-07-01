@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arco del Triunfo</title>
+    <link rel="stylesheet" href="static/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="imagen1.png" alt="Imagen 1" class="header-image" />
+        <h1>Arco del Triunfo</h1>
+        <img src="imagen2.png" alt="Imagen 2" class="header-image" />
+      </div>
+      <p class="intro-text">
+        🌟 Arco del Triunfo: Donde los héroes pasan al atardecer
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html#estancia-disney">Estancia en Disney</a></li>
+          <li><a href="index.html#destinos">Destinos</a></li>
+          <li><a href="index.html#donde-comer">Dónde comer</a></li>
+          <li><a href="index.html#actividades">Actividades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="arcotriunfo"
+        class="collapsible-section custom-bg-color"
+        data-location="arcotriunfo"
+      >
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#arcoContent"
+            aria-expanded="false"
+            aria-controls="arcoContent"
+          >
+            🌟 Arco del Triunfo: Donde los héroes pasan al atardecer
+          </button>
+        </h2>
+        <div class="collapse" id="arcoContent">
+          <p class="intro-text">
+            Donde las luces se encienden, las estrellas se asoman y los
+            valientes cruzan bajo un arco de historia ✨🏛️
+          </p>
+
+          <h3>🏰 Un arco gigante con mil historias</h3>
+          <p>
+            El <strong>Arco del Triunfo</strong> es como una puerta mágica que
+            conecta el pasado con el presente. Fue construido por orden de
+            <strong>Napoleón Bonaparte</strong> para celebrar las victorias de
+            sus ejércitos. ¡Tiene más de 50 metros de alto! Desde arriba, puedes
+            ver cómo las calles de París se abren como los rayos de una estrella
+            🌟.
+          </p>
+
+          <h3>🌆 Misión al anochecer</h3>
+          <ul>
+            <li>
+              🔭 Sube al mirador justo cuando el sol se esconde. ¡Verás la Torre
+              Eiffel iluminada!
+            </li>
+            <li>
+              🕯️ Busca la <strong>llama eterna</strong> que nunca se apaga, en
+              honor a los soldados desconocidos
+            </li>
+            <li>
+              📸 Haz una foto saltando con el arco de fondo. ¡Puntos extra si
+              haces forma de estrella!
+            </li>
+          </ul>
+
+          <h3>🎨 Idea para después</h3>
+          <p>
+            Dibuja tu propio arco del triunfo con banderas, luces y fuegos
+            artificiales. ¿Y si lo haces flotante o con alas? 🪽
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="fotos-arcotriunfo"
+        class="collapsible-section custom-bg-color"
+      >
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#fotosArcoContent"
+            aria-expanded="false"
+            aria-controls="fotosArcoContent"
+          >
+            📷 ¡Fotos bajo el cielo estrellado!
+          </button>
+        </h2>
+        <div class="collapse" id="fotosArcoContent">
+          <img
+            src="imagenes/arcotriunfo1.jpg"
+            alt="Arco del Triunfo iluminado al anochecer"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/arcotriunfo2.jpg"
+            alt="Vista desde arriba del Arco del Triunfo con calles en estrella"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/arcotriunfo3.jpg"
+            alt="Llama eterna bajo el Arco del Triunfo"
+            style="width: 200px; height: auto"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="index.html#destinos">Volver</a></p>
+      <p>&copy; 2025 Viaje a París. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="static/bootstrap.js"></script>
+  </body>
+</html>

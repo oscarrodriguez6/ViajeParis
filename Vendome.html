@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plaza Vendôme</title>
+    <link rel="stylesheet" href="static/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="imagen1.png" alt="Imagen 1" class="header-image" />
+        <h1>Plaza Vendôme</h1>
+        <img src="imagen2.png" alt="Imagen 2" class="header-image" />
+      </div>
+      <p class="intro-text">
+       💎 Plaza Vendôme: Donde las joyas tienen casa propia
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html#estancia-disney">Estancia en Disney</a></li>
+          <li><a href="index.html#destinos">Destinos</a></li>
+          <li><a href="index.html#donde-comer">Dónde comer</a></li>
+          <li><a href="index.html#actividades">Actividades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="vendome"
+        class="collapsible-section custom-bg-color"
+        data-location="vendome"
+      >
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#vendomeContent"
+            aria-expanded="false"
+            aria-controls="vendomeContent"
+          >
+            💎 Plaza Vendôme: Donde las joyas tienen casa propia
+          </button>
+        </h2>
+        <div class="collapse" id="vendomeContent">
+          <p class="intro-text">
+            Donde las vitrinas brillan como estrellas y las columnas cuentan
+            historias de emperadores ✨🏛️
+          </p>
+
+          <h3>👑 Un cuadrado lleno de lujo</h3>
+          <p>
+            Esta plaza es como un <strong>cofre del tesoro gigante</strong>.
+            Aquí están las tiendas de joyas más famosas del mundo: Cartier,
+            Dior, Chanel... ¡y hasta el <strong>Hotel Ritz</strong> donde
+            dormían reinas y artistas! En el centro hay una
+            <strong>columna de bronce</strong> que Napoleón mandó construir con
+            cañones fundidos. ¡Guau! 💥
+          </p>
+
+          <h3>🔍 Misión Vendôme</h3>
+          <ul>
+            <li>💍 Cuenta cuántas joyerías ves en la plaza</li>
+            <li>📸 Haz una foto saltando delante de la columna</li>
+            <li>🎨 Dibuja tu propia joya mágica y ponle nombre</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="fotos-vendome" class="collapsible-section custom-bg-color">
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#fotosVendomeContent"
+            aria-expanded="false"
+            aria-controls="fotosVendomeContent"
+          >
+            📷 ¡Fotos con brillos y columnas!
+          </button>
+        </h2>
+        <div class="collapse" id="fotosVendomeContent">
+          <img
+            src="imagenes/vendome1.jpg"
+            alt="Vista de la plaza con la columna de Napoleón"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/vendome2.jpg"
+            alt="Escaparates de joyerías con luces"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/vendome3.jpg"
+            alt="Niños mirando vitrinas como si fueran cofres del tesoro"
+            style="width: 200px; height: auto"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="index.html#destinos">Volver</a></p>
+      <p>&copy; 2025 Viaje a París. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="static/bootstrap.js"></script>
+  </body>
+</html>

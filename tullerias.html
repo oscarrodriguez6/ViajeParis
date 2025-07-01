@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jardin de las tullerías</title>
+    <link rel="stylesheet" href="static/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="imagen1.png" alt="Imagen 1" class="header-image" />
+        <h1>Jardin de las tullerías</h1>
+        <img src="imagen2.png" alt="Imagen 2" class="header-image" />
+      </div>
+      <p class="intro-text">
+            🌿 Jardín de las Tullerías: Donde las sillas se mueven solas (¡si tú
+            las empujas!)
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html#estancia-disney">Estancia en Disney</a></li>
+          <li><a href="index.html#destinos">Destinos</a></li>
+          <li><a href="index.html#donde-comer">Dónde comer</a></li>
+          <li><a href="index.html#actividades">Actividades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="tullerias"
+        class="collapsible-section custom-bg-color"
+        data-location="tullerias"
+      >
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#tulleriasContent"
+            aria-expanded="false"
+            aria-controls="tulleriasContent"
+          >
+            🌿 Jardín de las Tullerías: Donde las sillas se mueven solas (¡si tú
+            las empujas!)
+          </button>
+        </h2>
+        <div class="collapse" id="tulleriasContent">
+          <p class="intro-text">
+            Donde los reyes paseaban, los patos chapotean y las sillas verdes
+            tienen ruedas invisibles 🪑🦆
+          </p>
+
+          <h3>👑 Un jardín con corona</h3>
+          <p>
+            Este jardín fue creado por una reina (Catalina de Médici) hace más
+            de 450 años. ¡Y aún hoy sigue siendo uno de los más bonitos de
+            París! Tiene fuentes, esculturas, caminos secretos y un montón de
+            <strong>sillas verdes</strong> que puedes mover para sentarte donde
+            quieras. ¡Como si fueran tronos portátiles! 👑🪑
+          </p>
+
+          <h3>🕵️‍♀️ Misión Tullerías</h3>
+          <ul>
+            <li>🔍 Encuentra una fuente con patos o peces</li>
+            <li>
+              🪑 Corre a por la silla más cómoda y colócala mirando a la Torre
+              Eiffel
+            </li>
+            <li>
+              🎨 Dibuja una flor, una estatua o una nube con forma de croissant
+            </li>
+          </ul>
+
+          <h3>🎠 Bonus divertido</h3>
+          <p>
+            En verano hay una <strong>feria con noria</strong> y carruseles.
+            ¡Ideal para girar como una magdalena en remolino! 🎡🍭
+          </p>
+        </div>
+      </section>
+      <section id="fotos-tullerias" class="collapsible-section custom-bg-color">
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#fotosTulleriasContent"
+            aria-expanded="false"
+            aria-controls="fotosTulleriasContent"
+          >
+            📷 ¡Fotos entre flores y fuentes!
+          </button>
+        </h2>
+        <div class="collapse" id="fotosTulleriasContent">
+          <img
+            src="imagenes/tullerias1.jpg"
+            alt="Vista aérea del jardín con caminos y esculturas"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/tullerias2.jpg"
+            alt="Niños corriendo junto a una fuente redonda"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/tullerias3.jpg"
+            alt="Sillas verdes junto al agua y patos nadando"
+            style="width: 200px; height: auto"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="index.html#destinos">Volver</a></p>
+      <p>&copy; 2025 Viaje a París. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="static/bootstrap.js"></script>
+  </body>
+</html>

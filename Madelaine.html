@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Madeleine</title>
+    <link rel="stylesheet" href="static/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="imagen1.png" alt="Imagen 1" class="header-image" />
+        <h1>La Madeleine</h1>
+        <img src="imagen2.png" alt="Imagen 2" class="header-image" />
+      </div>
+      <p class="intro-text">
+        ⛪ La Madeleine: ¡Una iglesia que parece un templo griego!
+      </p>
+      <nav>
+        <ul>
+          <li><a href="index.html#estancia-disney">Estancia en Disney</a></li>
+          <li><a href="index.html#destinos">Destinos</a></li>
+          <li><a href="index.html#donde-comer">Dónde comer</a></li>
+          <li><a href="index.html#actividades">Actividades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="madeleine"
+        class="collapsible-section custom-bg-color"
+        data-location="madeleine"
+      >
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#madeleineContent"
+            aria-expanded="false"
+            aria-controls="madeleineContent"
+          >
+            ⛪ La Madeleine: ¡Una iglesia que parece un templo griego!
+          </button>
+        </h2>
+        <div class="collapse" id="madeleineContent">
+          <p class="intro-text">
+            Donde las columnas tocan el cielo y el silencio suena como un
+            susurro de mármol 🏛️🎶
+          </p>
+
+          <h3>🏛️ ¿Una iglesia o un palacio de dioses?</h3>
+          <p>
+            Desde fuera, parece el templo de Zeus, pero en realidad es una
+            iglesia dedicada a <strong>Santa María Magdalena</strong>. Tiene
+            <strong>52 columnas gigantes</strong> y una escalinata perfecta para
+            jugar a ser estatuas vivientes. ¡Sube como si fueras un héroe
+            mitológico! ⚡🦸‍♀️
+          </p>
+
+          <h3>🎯 Misión Madeleine</h3>
+          <ul>
+            <li>
+              📸 Haz una foto con los brazos abiertos como si fueras una estatua
+            </li>
+            <li>
+              🔍 Busca el órgano gigante dentro (¡es uno de los más grandes de
+              París!)
+            </li>
+            <li>
+              🎨 Dibuja tu propia iglesia con columnas de helado o lápices de
+              colores
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="fotos-madeleine" class="collapsible-section custom-bg-color">
+        <h2>
+          <button
+            class="btn btn-custom"
+            data-bs-toggle="collapse"
+            data-bs-target="#fotosMadeleineContent"
+            aria-expanded="false"
+            aria-controls="fotosMadeleineContent"
+          >
+            📷 ¡Fotos entre columnas y secretos!
+          </button>
+        </h2>
+        <div class="collapse" id="fotosMadeleineContent">
+          <img
+            src="imagenes/madeleine1.jpg"
+            alt="Fachada de la iglesia con columnas enormes"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/madeleine2.jpg"
+            alt="Interior con órgano y vitrales"
+            style="width: 200px; height: auto"
+          />
+          <br />
+          <img
+            src="imagenes/madeleine3.jpg"
+            alt="Niños subiendo las escaleras como si fueran héroes"
+            style="width: 200px; height: auto"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="index.html#destinos">Volver</a></p>
+      <p>&copy; 2025 Viaje a París. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="static/bootstrap.js"></script>
+  </body>
+</html>
